@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <NavLink 
                         activeclassname="active"
                         className="nav-item nav-link"
-                        to="/marvel"
+                        to="./marvel"
                     >
                         Marvel
                     </NavLink>
@@ -41,7 +41,7 @@ export const Navbar = () => {
                     <NavLink 
                         activeclassname="active"
                         className="nav-item nav-link" 
-                        to="heroes-app/dc"
+                        to="./dc"
                     >
                         DC
                     </NavLink>
