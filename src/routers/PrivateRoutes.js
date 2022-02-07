@@ -11,7 +11,7 @@ export const PrivateRoutes = ({ isAuthenticated }) => {
     
     return (
 
-        isAuthenticated ? <DashboardRoutes /> : <Navigate to='heroes-app/login' />
+        isAuthenticated ? <DashboardRoutes /> : <Navigate to='login' />
 
         // //Esta es la version del curso v5
         // <Route {...rest}
