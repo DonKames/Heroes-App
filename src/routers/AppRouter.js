@@ -17,8 +17,8 @@ export const AppRouter = () => {
       <div>
         <Routes>
 
-          <Route path='/login' element={<PublicRoutes isAuthenticated={user.logged} />} />
-          <Route path='*' element={<PrivateRoutes isAuthenticated={user.logged} />} />
+          <Route path='/heroes-app/login' element={<PublicRoutes isAuthenticated={user.logged} />} />
+          <Route path='/heroes-app/*' element={<PrivateRoutes isAuthenticated={user.logged} />} />
           {/* Version del cruso con router v5
           <Route
             path="*"
