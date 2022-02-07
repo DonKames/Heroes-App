@@ -22,7 +22,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="./"
+                to="/"
             >
                 Asociaciones
             </Link>
@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <NavLink 
                         activeclassname="active"
                         className="nav-item nav-link"
-                        to="./marvel"
+                        to="/marvel"
                     >
                         Marvel
                     </NavLink>
@@ -41,7 +41,7 @@ export const Navbar = () => {
                     <NavLink 
                         activeclassname="active"
                         className="nav-item nav-link" 
-                        to="./dc"
+                        to="/dc"
                     >
                         DC
                     </NavLink>
@@ -49,7 +49,7 @@ export const Navbar = () => {
                     <NavLink 
                         activeclassname="active"
                         className="nav-item nav-link" 
-                        to="./search"
+                        to="/search"
                     >
                         Search
                     </NavLink>

@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Navigate, Outlet, useLocation } from 'react-router-dom';
+import { Navigate, useLocation } from 'react-router-dom';
 import { DashboardRoutes } from './DashboardRoutes';
+import { LoginScreen } from '../components/login/LoginScreen';
 
 export const PrivateRoutes = ({ isAuthenticated }) => {
 
@@ -11,7 +12,7 @@ export const PrivateRoutes = ({ isAuthenticated }) => {
     
     return (
 
-        isAuthenticated ? <DashboardRoutes /> : <Navigate to='login' />
+        isAuthenticated ? <DashboardRoutes /> : <LoginScreen />
 
         // //Esta es la version del curso v5
         // <Route {...rest}
