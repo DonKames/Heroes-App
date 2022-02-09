@@ -10,6 +10,8 @@ export const HeroScreen = () => {
 
   const hero = useMemo(() => getHeroById( heroeId ), [ heroeId ]);
 
+  console.log('Hero: ', hero, 'HeroeId: ', heroeId);
+
   //const hero = getHeroById(heroeId);
 
   if (!hero) {

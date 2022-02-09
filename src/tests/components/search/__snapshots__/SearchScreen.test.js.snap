@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas <SearchScreen /> Debe mostrar a Batman y el input con el valor del queryString. 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchHero"
+          onChange={[Function]}
+          placeholder="Find Your Hero"
+          type="text"
+          value="batman"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-primary mt-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="col"
+      >
+        <div
+          className="card animate__animated animate__fadeIn"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="Batman"
+                className="card-img"
+                src="./assets/heroes/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Batman
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Bruce Wayne
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    Detective Comics #27
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas <SearchScreen /> Debe mostrar un error si no se encuentra el hero 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchHero"
+          onChange={[Function]}
+          placeholder="Find Your Hero"
+          type="text"
+          value="batmanFAKE"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-primary mt-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger animate__animated animate__tada"
+      >
+        There is no heroes with: 
+        batmanFAKE
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas <SearchScreen /> Debe mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchHero"
+          onChange={[Function]}
+          placeholder="Find Your Hero"
+          type="text"
+          value=""
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-primary mt-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info animate__animated animate__slideInUp"
+      >
+        Search a hero
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <NavBar /> Debe mostrarse correctamente. 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <a
+    className="navbar-brand"
+    href="/"
+    onClick={[Function]}
+  >
+    Asociaciones
+  </a>
+  <div
+    className="navbar-collapse"
+  >
+    <div
+      className="navbar-nav"
+    >
+      <a
+        activeclassname="active"
+        className="nav-item nav-link"
+        href="/marvel"
+        onClick={[Function]}
+      >
+        Marvel
+      </a>
+      <a
+        activeclassname="active"
+        className="nav-item nav-link"
+        href="/dc"
+        onClick={[Function]}
+      >
+        DC
+      </a>
+      <a
+        activeclassname="active"
+        className="nav-item nav-link"
+        href="/search"
+        onClick={[Function]}
+      >
+        Search
+      </a>
+    </div>
+  </div>
+  <div
+    className="navbar-collapse collapse order-3 dual-collapse2"
+  >
+    <ul
+      className="navbar-nav ms-auto"
+    >
+      <span
+        className="nav-item nav-link text-info"
+      >
+        trixie
+      </span>
+      <button
+        className="nav-item nav-link btn"
+        onClick={[Function]}
+      >
+        Logout
+      </button>
+    </ul>
+  </div>
+</nav>
+`;
